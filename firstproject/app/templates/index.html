@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Covid Prediction App</h1>
+
+    <form action="/predict/" method="get">
+        <table>
+            <tr>
+                <td>Enter Your Age</td>
+                <td>
+                    <input type="text" placeholder="Enter your age" name="age">
+                </td>
+            </tr>
+            <tr>
+                <td>Select Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="trans"> Transgender
+                </td>
+            </tr>
+            <tr>
+                <td>Body Pain</td>
+                <td>
+                    <input type="radio" name="body_pain" value="1"> Yes
+                    <input type="radio" name="body_pain" value="0"> No
+                </td>
+            </tr>
+            <tr>
+                <td>Fever</td>
+                <td>
+                    <input type="text" placeholder="Enter your fever" name="fever">
+                </td>
+            </tr>
+            <tr>
+                <td>Runny Nose</td>
+                <td>
+                    <input type="radio" name="runny_nose" value="1"> Yes
+                    <input type="radio" name="runny_nose" value="0"> No
+                </td>
+            </tr>
+            <tr>
+                <td>Breathing Problem</td>
+                <td>
+                    <input type="radio" name="breathing" value="1"> Yes
+                    <input type="radio" name="breathing" value="0"> No
+                </td>
+            </tr>
+            <tr>
+                <td>Nasal</td>
+                <td>
+                    <input type="radio" name="nasal" value="1"> Yes
+                    <input type="radio" name="nasal" value="0"> No
+                </td>
+            </tr>
+            <tr>
+                <td>Sore throat</td>
+                <td>
+                    <input type="radio" name="sore" value="1"> Yes
+                    <input type="radio" name="sore" value="0"> No
+                </td>
+            </tr>
+            <tr>
+                <td>Severity</td>
+                <td>
+                    <input type="radio" name="severity" value="mild"> Mild
+                    <input type="radio" name="severity" value="moderate"> Moderate
+                    <input type="radio" name="severity" value="severe"> Severe
+                </td>
+            </tr>
+            <tr>
+                <td>Contact with covid patient</td>
+                <td>
+                    <input type="radio" name="contact" value="yes"> Yes
+                    <input type="radio" name="contact" value="no"> No
+                    <input type="radio" name="contact" value="not_known"> Not known
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <button type="reset">Reset Form</button>
+                </td>
+                <td>
+                    <button type="submit">Predict</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
