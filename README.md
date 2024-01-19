@@ -39,5 +39,4 @@ The Covid Prediction App is a simple web application designed to predict the lik
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
+  https://github.com/Prat1331/django.git
